@@ -1,0 +1,53 @@
+@import '../config/index.wxss';
+
+// image{
+//     background-image: url(@default-image-url);
+//     background-size: 134*@unit 134*@unit;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-color: #FAFAFA;
+//     &.hide{
+//         background-size:0;   
+//         background-color:rgba(0, 0, 0, 0);
+//     }
+// }
+//文字裁剪
+.clip-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-wrap:break-word;
+    word-break:break-all;
+}
+
+.clip-text-2 {
+    -webkit-line-clamp: 2;
+}
+
+swiper .wx-swiper-dots.wx-swiper-dots-horizontal{
+    margin-bottom: 2*@unit;
+}
+swiper .wx-swiper-dot{
+   width:6*@unit;
+   display: inline-flex;
+   height: 6*@unit;
+//    margin-left: 8*@unit;
+   justify-content:space-between;
+}
+swiper .wx-swiper-dot::before{
+   content: '';
+   flex-grow: 1; 
+   border-radius: 2*@unit;
+}
+swiper .wx-swiper-dot-active{
+    width:22*@unit;
+    height: 6*@unit;
+    border-radius: 2*@unit;
+ }
+swiper .wx-swiper-dot-active::before{
+   width:22*@unit;
+   height: 6*@unit;
+   border-radius: 2*@unit;
+}

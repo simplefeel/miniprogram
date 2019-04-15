@@ -1,0 +1,50 @@
+{
+  "name": "wxhap",
+  "version": "1.3.0",
+  "repository": {},
+  "description": "脚手架",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "node hap.server;",
+    "dev": "gulp dev;",
+    "dev-daily": "gulp dev-daily;",
+    "dev-pre": "gulp dev-prepare;",
+    "dev-prod": "gulp dev-product;",
+    "daily": "gulp daily;",
+    "pre": "gulp prepare;",
+    "prod": "gulp product;",
+    "publish": "gulp publish;",
+    "eslint": "gulp eslint;",
+    "csslint": "gulp csslint;"
+  },
+  "keywords": [
+    "gulp",
+    "component",
+    "bower",
+    "wxhap"
+  ],
+  "private": true,
+  "author": "longjia",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^6.0.0",
+    "del": "latest",
+    "extend": "latest",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-csslint": "^0.2.2",
+    "gulp-eslint": "^2.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-json-editor": "^2.2.1",
+    "gulp-less": "~3.0.5",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3",
+    "gulp.replace": "^1.1.1",
+    "koa": "~1.1.1",
+    "koa-send": "~3.1.0",
+    "run-sequence": "latest"
+  },
+  "dependencies": {
+    "gulp-ejs": "^3.0.1"
+  }
+}

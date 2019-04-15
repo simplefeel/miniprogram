@@ -1,0 +1,22 @@
+.num {
+    font-size: 2em;
+    color: red;
+    text-align: center;
+}
+.b-box-btn {
+    width: 200rpx;
+    height: 50rpx;
+    background: violet;
+    border-radius: 5rpx;
+    margin: 10rpx 0;
+    text-align: center;
+    line-height: 50rpx;
+}
+.b-box-btn-off {
+    background: #e74c3c;
+    color: #fff;
+}
+.b-box-btn-go {
+    background: #d35400;
+    color: #fff;
+}

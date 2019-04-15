@@ -1,0 +1,4 @@
+<view class="a-box">
+    <view>组件A</view>
+    <component-b></component-b>
+</view>

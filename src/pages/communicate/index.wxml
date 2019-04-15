@@ -1,0 +1,4 @@
+<view class="num">{{count}}</view>
+<!-- <view bindtap="offEvent" class="b-box-btn b-box-btn-off">释放</view>
+<view bindtap="goNextPage" class="b-box-btn b-box-btn-go">跳转</view> -->
+<ComponentA></ComponentA>

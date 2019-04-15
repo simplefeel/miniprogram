@@ -1,0 +1,6 @@
+.a-box {
+    width: 100%;
+    height: 500rpx;
+    background: #3498db;
+    color: #ffffff;
+}

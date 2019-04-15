@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "ComponentA": "../../components/ComponentA/index"
+    },
+    "navigationBarTitleText": "根页面"
+}

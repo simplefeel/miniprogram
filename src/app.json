@@ -1,0 +1,10 @@
+{
+    "pages": [],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#fff"
+    },
+    "networkTimeout": {
+        "request": 20000
+    }
+}

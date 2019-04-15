@@ -1,0 +1,9 @@
+<view class="wx-wrap">
+    <input class="input-el" wx:for="{{inputList}}" wx:key="sort" />
+</view>
+<view class="wx-operation-wrap">
+    <button class="add-btn" bind:tap="insertHead">头部插入</button>
+    <button class="add-btn" bind:tap="insertTail">尾部插入</button>
+    <button class="add-btn" bind:tap="insertBetween">中间插入</button>
+    <button class="add-btn" bind:tap="reverse">乱序</button>
+</view>

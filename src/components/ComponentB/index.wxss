@@ -1,0 +1,18 @@
+.b-box {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    background: #1abc9c;
+}
+.b-box-btn {
+    width: 200rpx;
+    height: 50rpx;
+    background: #e67e22;
+    border-radius: 5rpx;
+    margin: 10rpx auto;
+    text-align: center;
+    line-height: 50rpx;
+}
+.b-box-btn-off {
+    background: greenyellow;
+}

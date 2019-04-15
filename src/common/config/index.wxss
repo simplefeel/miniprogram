@@ -1,0 +1,79 @@
+@unit: 1rpx;
+
+//color
+
+@color-deep-red: #c60a1e;
+
+@color-global-red: #fe5a4c;
+
+@color-cart-red: #f12c20;
+
+@color-light-grey: #f5f5f5;
+
+@color-bg-grey: #fafafa;
+
+@color-deep-grey: #7f7f7f;
+
+@color-border-grey: #e6e6e6;
+
+@color-light-red: #f58f86;
+
+@color-pink: #fff7f6;
+
+@color-button-red: #ff5344;
+
+@color-button-orange: #ffad28;
+
+@color-ccc: #cccccc;
+
+@color-999: #999999;
+
+@color-666: #666666;
+
+@color-333: #333333;
+
+@color-000: #000000;
+
+@color-28: #282828;
+
+@color-ddd: #dddddd;
+@color-888: #888888;
+@color-white: #ffffff;
+//font-size
+@fontsize-50: 50 * @unit;
+
+@fontsize-48: 48 * @unit;
+
+@fontsize-38: 38 * @unit;
+
+@fontsize-36: 36 * @unit;
+
+@fontsize-34: 34 * @unit;
+
+@fontsize-32: 32 * @unit;
+
+@fontsize-30: 30 * @unit;
+
+@fontsize-28: 28 * @unit;
+
+@fontsize-26: 26 * @unit;
+
+@fontsize-24: 24 * @unit;
+
+@fontsize-22: 22 * @unit;
+
+@fontsize-20: 20 * @unit;
+
+@fontsize-18: 18 * @unit;
+
+@fontsize-16: 16 * @unit;
+
+.multi-line-ellipsis(@line) {
+    overflow: hidden;
+    -webkit-line-clamp: @line;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+}
+@default-image-url: 'https://si.geilicdn.com/hz_img_067f0000015ccd9a334c0a02685e_134_134_unadjust.png';

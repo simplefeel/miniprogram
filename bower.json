@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "name": "wxhap-pro",
+    "main": "",
+    "authors": [],
+    "license": "MIT",
+    "keywords": [],
+    "moduleType": [],
+    "homepage": "",
+    "private": true,
+    "ignore": ["/*", "!/dist", "/dist/app.json", "/dist/app.js", "/dist/app.wxss"],
+    "dependencies": {
+        "onion": "http://gitlab.vdian.net/wx/onion.git#v1.1.0",
+        "mina-spider": "http://gitlab.vdian.net/v-components/mina-spider.git#publish/0.0.1",
+        "login": "https://gitlab.vdian.net/wx/login.git#publish/1.7.2",
+        "base": "https://gitlab.vdian.net/wx-components/base.git",
+        "toast": "http://gitlab.vdian.net/wx-components/toast.git"
+    }
+}

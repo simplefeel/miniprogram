@@ -1,0 +1,4 @@
+<view class="b-box">
+    组件B
+    <view bindtap="addCount" class="b-box-btn">增加</view>
+</view>
